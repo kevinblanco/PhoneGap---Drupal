@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Node List</title>
+  <link rel="stylesheet" href="css/jquery-mobile.css" /> 
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="text/javascript" charset="utf-8" src="js/lib/cordova.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/lib/jquery-1.9.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/lib/jquery-mobile-1.3.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/dashboard.js"></script>
+
+ </head>
+ <body>
+   <div data-role="page" id="page_node_list">
+
+	<script type="text/javascript" charset="utf-8" src="js/node_list.js"></script>
+	
+	<div id="loader">
+		<div class="message">
+			<img src="css/images/ajax-loader.gif">
+		</div>
+	</div>
+	
+	  <div data-role="header" data-theme="b">
+	  <a href="index.html" data-icon="home" data-iconpos="notext" data-transition="fade">Dashboard</a>
+	    <h1>Mobile Nodes</h1>
+	  </div><!-- /header -->
+	
+	  <div data-role="content" class='content'>
+	    <ul data-role="listview" data-theme="a" data-inset="true" id="page_node_pages_list"></ul>
+	  </div><!-- /content -->
+	
+	</div><!-- /page -->
+
+
+
+ </body>
+</html>

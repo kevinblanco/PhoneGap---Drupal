@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>LogIn</title>
+  <link rel="stylesheet" href="css/jquery-mobile.css" /> 
+  <link rel="stylesheet" href="css/main.css" />
+  <script type="text/javascript" charset="utf-8" src="js/lib/cordova.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/lib/jquery-1.9.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/lib/jquery-mobile-1.3.js"></script>
+
+ </head>
+ <body>
+    <div data-role="page" id="page_login">
+  	<script type="text/javascript" charset="utf-8" src="js/login.js"></script>
+
+	<div id="loader">
+		<div class="message">
+			<img src="css/images/ajax-loader.gif">
+		</div>
+	</div>
+	
+	  <div data-role="header" data-theme="b">
+	    <h1>Iniciar Sesion</h1>
+	  </div><!-- /header -->
+
+	  <div data-role="content" class='content'>
+	  
+	  <div id="banner">
+	 	<img alt="Logo" src="css/images/logo.png" id="logo">
+	 </div>
+	  
+	    <div>
+	      <label for="page_login_name">Nombre de Usuario</label>
+	      <input type="text" id="page_login_name" />
+	    </div>
+	    <div>
+	      <label for="page_login_pass">Contrasena</label>
+	      <input type="password" id="page_login_pass" />
+	    </div>
+	    <fieldset>
+	      <div><button type="button" data-theme="b" id="page_login_submit" data-icon="arrow-r" data-iconpos="right">Conectar</button></div>
+	    </fieldset>
+	  </div><!-- /content -->
+	
+	</div><!-- /page -->
+ </body>
+</html>

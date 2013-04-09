@@ -1,0 +1,48 @@
+#page_node_create,
+#page_login,
+#page_dashboard{
+	background: #e9e9e9 !important;
+}
+
+#logo{
+	margin: 25px 0px;
+}
+
+#banner{
+	text-align: center;
+}
+
+#page_login_submit{
+	margin-top: 12px !important;
+}
+
+#loader{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    background-color: #000;
+    z-index: 1000;
+    display:none;
+}
+
+#loader .message{
+	position: absolute;
+    top: 50%;
+    left: 46%;
+    color: #fff;
+    font-weight: bold;
+}
+
+#footer, .node-view-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#footer p{
+	font-size: 11px !important;
+}
